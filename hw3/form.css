@@ -1,0 +1,23 @@
+span {
+    color: #f50a0a;
+}
+
+.label-block label {
+    display: block;
+}
+
+p {
+    margin: 0 0 15px;
+}
+
+fieldset p:last-child {
+    margin-bottom: 0;
+}
+
+.button-container {
+    margin-top: 15px;
+}
+
+#select-variant {
+    height: 73px;
+}
