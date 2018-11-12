@@ -1,0 +1,36 @@
+body {
+  width: 1920px;
+}
+
+header {
+  overflow: hidden;
+}
+
+.header-wrapper {
+  font-family: 'Montserrat', sans-serif;
+  height: 800px;
+  text-transform: uppercase;
+  background-image: url("images/Layer_66.jpg");
+}
+
+.layer{
+  background-color: #212121;
+  opacity: 0.87;
+  height: 100%;
+}
+
+.logo-wrapper {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.92px;
+  color: #fff;
+}
+
+#main-menu {
+  float: right;
+}
+
+#main-menu li {
+  display: inline-block;
+  color: white;
+}
