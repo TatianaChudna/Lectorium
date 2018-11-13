@@ -104,7 +104,7 @@ a {
   margin-top: 88px;
 }
 
-.main-plate {
+.plate {
   background-color: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
   margin-bottom: 88px;
@@ -184,4 +184,43 @@ main .container {
   float: right;
   font-size: 18px;
   margin-top: 15px;
+  color: #212121;
+}
+
+.plate-list {
+  margin: 0 -8px;
+}
+
+.plate-list li {
+  display: inline-block;
+  width: 260px;
+  margin: 0 8px;
+}
+.plate-list li:last-child {
+  margin-left: 9px;
+  margin-right: 7px;
+}
+
+.plate-text h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+  margin-bottom: 7px;
+}
+
+.plate-list .plate-text p {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.56px;
+}
+
+.plate-list .plate-text {
+  padding-top: 9px;
+  padding-bottom: 25px;
+}
+
+.plate-list .plate-footer {
+  padding: 15px 19px 21px;
 }
