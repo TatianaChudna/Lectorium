@@ -2,6 +2,7 @@ body {
   width: 1920px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+  background-color: #f5f5f5;
 }
 
 header {
@@ -17,6 +18,7 @@ a {
   height: 800px;
   text-transform: uppercase;
   background-image: url("images/Layer_66.jpg");
+  margin-bottom: 91px;
 }
 
 .layer{
@@ -70,7 +72,7 @@ a {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .main-buner h2 {
@@ -100,4 +102,86 @@ a {
   background-color: #303f9f;
   padding: 14px 25px;
   margin-top: 88px;
+}
+
+.main-plate {
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+  margin-bottom: 88px;
+}
+
+.content {
+  margin-right: 350px;
+}
+
+.sidebar {
+  float: right;
+  background-color: #fff;
+  width: 330px;
+}
+
+main .container {
+  overflow: hidden;
+}
+
+.plate-header {
+  width: 100%;
+  height: auto;
+}
+
+.plate-text {
+  padding: 15px 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.plate-text h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  margin-bottom: 7px;
+}
+
+.plate-text p {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.64px;
+}
+
+.plate-footer {
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+  padding: 19px 20px 21px;
+}
+
+.plate-footer .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  padding-right: 10px;
+}
+
+.plate-footer .name {
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  margin-bottom: 10px;
+  margin-top: 8px;
+}
+
+.plate-footer .info {
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  color: #212121;
+  opacity: 0.54;
+}
+
+.plate-footer span {
+  margin-left: 12px;
+}
+
+.plate-footer .more-info {
+  float: right;
+  font-size: 18px;
+  margin-top: 15px;
 }
