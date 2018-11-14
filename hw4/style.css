@@ -21,7 +21,7 @@ a {
   margin-bottom: 91px;
 }
 
-.layer{
+.header-wrapper .layer{
   background-color: #212121;
   opacity: 0.87;
   height: 100%;
@@ -108,6 +108,7 @@ a {
   background-color: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
   margin-bottom: 88px;
+  border-radius: 4px 4px 0 0;
 }
 
 .content {
@@ -117,7 +118,80 @@ a {
 .sidebar {
   float: right;
   background-color: #fff;
-  width: 330px;
+  width: 271px;
+  height: 1317px;
+  padding: 34px 30px 34px 29px;
+  letter-spacing: 0.4px;
+}
+
+.sidebar h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18.1px;
+  font-weight: 700;
+  letter-spacing: 0.35px;
+  text-transform: uppercase;
+  padding-bottom: 7px;
+  color: #3f51b5;
+  border-bottom: 1px solid #aec3ff;
+}
+
+.sidebar .header-sidebar a {
+  color: #3f51b5;
+}
+
+.sidebar ul {
+  margin-top: 3px;
+  margin-bottom: 33px;
+}
+
+.sidebar span {
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.56px;
+  float: right;
+}
+
+.sidebar a {
+  color: #000;
+}
+
+.sidebar li {
+  opacity: 0.87;
+  letter-spacing: 0.56px;
+  line-height: 40px;
+  overflow: hidden;
+  border-bottom: 1px solid #ebeae9;
+  margin-top: -1px;
+}
+
+.sidebar li:last-child{
+  border-bottom: none;
+}
+
+.form-for-send label {
+  display: block;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  opacity: 0.87;
+  margin: 14px 0;
+}
+
+.form-for-send input {
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  padding: 10px 86px 12px 14px;
+}
+
+.submit-form input {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  background-color: #3f51b5;
+  padding: 13px 84px 13px 89px;
+  margin-top: 10px;
+  border-radius: 4px;
+  color: #fff;
 }
 
 main .container {
@@ -125,6 +199,26 @@ main .container {
 }
 
 .plate-header {
+  position: relative;
+}
+.plate-list .plate-header {
+  height: 160px;
+}
+
+.plate-header .layer{
+  opacity: 0.45;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -moz-linear-gradient(top, rgba(33,33,33,0) 45%, rgba(33,33,33,0) 52%, rgba(33,33,33,0) 70%, rgba(33,33,33,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(33,33,33,0) 45%,rgba(33,33,33,0) 52%,rgba(33,33,33,0) 70%,rgba(33,33,33,1) 100%);
+  background: linear-gradient(to bottom, rgba(33,33,33,0) 45%,rgba(33,33,33,0) 52%,rgba(33,33,33,0) 70%,rgba(33,33,33,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00212121', endColorstr='#212121',GradientType=0 );
+}
+
+.plate-header img {
   width: 100%;
   height: auto;
 }
@@ -187,11 +281,14 @@ main .container {
   color: #212121;
 }
 
+.plate-list .plate-footer .more-info {
+  margin-top: 25px;
+}
 .plate-list {
   margin: 0 -8px;
 }
 
-.plate-list li {
+.plate-list > li{
   display: inline-block;
   width: 260px;
   margin: 0 8px;
@@ -217,10 +314,88 @@ main .container {
 }
 
 .plate-list .plate-text {
-  padding-top: 9px;
+  padding-top: 11px;
   padding-bottom: 25px;
 }
 
 .plate-list .plate-footer {
   padding: 15px 19px 21px;
+}
+
+.play-button {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 400;
+  margin: -21px -21px;
+}
+
+.plate-header .button {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  font-size: 19px;
+  text-align: center;
+  line-height: 36px;
+  color: #3f51b5;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.plate-header .left-button {
+  top: 59px;
+  left: 10px;
+}
+
+.plate-header .right-button {
+  top: 59px;
+  right: 10px;
+}
+
+.plate-header .image-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.plate-header .image-caption a{
+  color: #fff;
+}
+
+.plate-header .image-caption li {
+  display: inline-block;
+  margin-left: 19px;
+}
+
+.plate-header .icon-list {
+  float: right;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.plate-header .icon-list a {
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.plate-header .icon-list a i {
+  font-size: 14px;
+  margin-right: 7px;
+}
+
+.plate-list .plate-header .icon-list {
+  margin-bottom: 13px;
+  margin-right: 13px;
+}
+
+.plate-header .image-caption span {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.7px;
+  color: #fff;
+  margin-left: 18px;
+
 }

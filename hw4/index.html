@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>Maket website Lectorium</title>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900|Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900|Open+Sans:400,700"
+        rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="reset.css">
@@ -40,18 +41,45 @@
 <main>
   <div class="container">
     <aside class="sidebar">
+      <h4 class="header-sidebar"><a href="#">categories</a></h4>
       <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+        <li><a href="#">Photography<span>195</span></a></li>
+        <li><a href="#">Illustration<span>15</span></a></li>
+        <li><a href="#">Graphic Design<span>36</span></a></li>
+        <li><a href="#">Web design<span>220</span></a></li>
+        <li><a href="#">Videography<span>17</span></a></li>
       </ul>
+      <h4>subcribe</h4>
+      <form action="#" method="POST">
+        <div class="form-for-send">
+          <label for="name">Name</label>
+          <input id="name" type="text" value="" placeholder="Igor Ten">
+        </div>
+        <div class="form-for-send">
+          <label for="email">Email</label>
+          <input id="email" type="email" value="" placeholder="email@adress.com">
+        </div>
+        <div class="submit-form">
+          <input type="submit" name="submit" value="subcribe">
+        </div>
+      </form>
     </aside>
     <div class="content">
       <section class="main-plate">
         <div class="plate">
-          <div class="plate-header">
+          <figure class="plate-header">
             <img src="images/Layer_48.jpg" alt="">
-          </div>
+            <div class="image-caption">
+              <ul class="icon-list">
+                <li>
+                  <a href="#"><i class="far fa-comment-alt"></i>7</a>
+                </li>
+                <li>
+                  <a href="#"><i class="far fa-heart"></i>15</a>
+                </li>
+              </ul>
+            </div>
+          </figure>
           <div class="plate-text">
             <h2>10 Things To Do To Change Your Life Forever</h2>
             <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the
@@ -72,13 +100,27 @@
         <ul class="plate-list">
           <li>
             <div class="plate">
-              <div class="plate-header">
+              <figure class="plate-header">
                 <img src="images/Layer_53.jpg" alt="">
-              </div>
+                <div class="layer"></div>
+                <div class="image-caption">
+                  <ul class="icon-list">
+                    <li>
+                      <a href="#"><i class="far fa-comment-alt"></i>7</a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="far fa-heart"></i>15</a>
+                    </li>
+                  </ul>
+                  <span>inspiration</span>
+                </div>
+                <div class="play-button"><i class="far fa-play-circle"></i></div>
+              </figure>
               <div class="plate-text">
                 <h3>Food That Actually Taste
                   Better When You Freeze</h3>
-                <p>Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. Vestibulum vitae mauris.</p>
+                <p>Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vel vehicula lorem and lacus.
+                  Vestibulum vitae mauris.</p>
               </div>
               <div class="plate-footer">
                 <div class="avatar">
@@ -92,13 +134,26 @@
           </li>
           <li>
             <div class="plate">
-              <div class="plate-header">
+              <figure class="plate-header">
                 <img src="images/Layer_54.jpg" alt="">
-              </div>
+                <div class="layer"></div>
+                <div class="image-caption">
+                  <ul class="icon-list">
+                    <li>
+                      <a href="#"><i class="far fa-comment-alt"></i>3</a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="far fa-heart"></i>15</a>
+                    </li>
+                  </ul>
+                  <span>trip</span>
+                </div>
+              </figure>
               <div class="plate-text">
                 <h3>Why It’s Amazing To Date
                   People Who Love Traveling</h3>
-                <p>Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. Vestibulum vitae mauris.</p>
+                <p>Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vel vehicula lorem and lacus.
+                  Vestibulum vitae mauris.</p>
               </div>
               <div class="plate-footer">
                 <div class="avatar">
@@ -106,19 +161,34 @@
                 </div>
                 <a href="#" class="more-info"><i class="fas fa-ellipsis-v"></i></a>
                 <p class="name">Benjamin Miller</p>
-                <p class="info">Apri 28, 2016</p>
+                <p class="info">April 28, 2016</p>
               </div>
             </div>
           </li>
           <li>
             <div class="plate">
-              <div class="plate-header">
+              <figure class="plate-header">
                 <img src="images/Layer_55.jpg" alt="">
-              </div>
+                <div class="layer"></div>
+                <div class="image-caption">
+                  <ul class="icon-list">
+                    <li>
+                      <a href="#"><i class="far fa-comment-alt"></i>18</a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="far fa-heart"></i>15</a>
+                    </li>
+                  </ul>
+                  <span>lifestyle</span>
+                </div>
+                <div class="button left-button"><i class="fas fa-angle-left"></i></div>
+                <div class="button right-button"><i class="fas fa-angle-right"></i></div>
+              </figure>
               <div class="plate-text">
                 <h3>5 Useful Tips for Novice
                   Painters</h3>
-                <p>Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. Vestibulum vitae mauris.</p>
+                <p>Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vel vehicula lorem and lacus.
+                  Vestibulum vitae mauris.</p>
               </div>
               <div class="plate-footer">
                 <div class="avatar">
@@ -126,14 +196,14 @@
                 </div>
                 <a href="#" class="more-info"><i class="fas fa-ellipsis-v"></i></a>
                 <p class="name">Henry Little</p>
-                <p class="info">Apri 28, 2016</p>
+                <p class="info">April 28, 2016</p>
               </div>
             </div>
           </li>
         </ul>
       </section>
     </div>
-  </div
+  </div>
 </main>
 <footer>
   <div class="footer-content"></div>
