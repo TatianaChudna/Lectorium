@@ -3,19 +3,18 @@
 <head>
   <meta charset="utf-8">
   <title>Maket website Lectorium</title>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900|Open+Sans:400,700"
-        rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+-----------------------<!--header start-->
 <div class="header-wrapper">
   <div class="layer">
     <div class="container">
       <header class="clearfix">
-        <nav id="main-menu">
+        <nav class="main-menu">
           <ul>
             <li class="active"><a href="#">home<i class="fas fa-angle-down"></i></a></li>
             <li><a href="#">portfolio<i class="fas fa-angle-down"></i></a></li>
@@ -33,11 +32,13 @@
       <div class="main-buner">
         <p>inspiration</p>
         <h2>5 Ways milllennials can start building their future today</h2>
-        <a class="send-button" href="#">read more</a>
+        <a class="send-button button" href="#">read more</a>
       </div>
     </div>
   </div>
 </div>
+------------------------<!--header end-->
+------------------------<!--main-content start-->
 <main>
   <div class="container">
     <aside class="sidebar">
@@ -94,8 +95,7 @@
           <div class="plate-text">
             <h2>10 Things To Do To Change Your Life Forever</h2>
             <p>The one constant thing in our life is change. We cannot avoid it and the more we resist change the
-              tougher
-              our life becomes. I know this because I was very skilled at deflecting change in life.</p>
+              tougher our life becomes. I know this because I was very skilled at deflecting change in life.</p>
           </div>
           <div class="plate-footer clearfix">
             <div class="avatar">
@@ -128,10 +128,9 @@
                 <div class="play-button"><i class="far fa-play-circle"></i></div>
               </figure>
               <div class="plate-text">
-                <h3>Food That Actually Taste
-                  Better When You Freeze</h3>
+                <h3>Food That Actually Taste Better When You Freeze</h3>
                 <p>Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vel vehicula lorem and lacus.
-                  Vestibulum vitae mauris.</p>
+                  Vestibulum vitae<span class="gradient">mauris.</span></p>
               </div>
               <div class="plate-footer clearfix">
                 <div class="avatar">
@@ -161,10 +160,9 @@
                 </div>
               </figure>
               <div class="plate-text">
-                <h3>Why It’s Amazing To Date
-                  People Who Love Traveling</h3>
+                <h3>Why It’s Amazing To Date People Who Love Traveling</h3>
                 <p>Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vel vehicula lorem and lacus.
-                  Vestibulum vitae mauris.</p>
+                  Vestibulum vitae<span class="gradient">mauris.</span></p>
               </div>
               <div class="plate-footer clearfix">
                 <div class="avatar">
@@ -196,10 +194,9 @@
                 <div class="button right-button"><i class="fas fa-angle-right"></i></div>
               </figure>
               <div class="plate-text">
-                <h3>5 Useful Tips for Novice
-                  Painters</h3>
+                <h3>5 Useful Tips for Novice Painters</h3>
                 <p>Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vel vehicula lorem and lacus.
-                  Vestibulum vitae mauris.</p>
+                  Vestibulum vitae<span class="gradient">mauris.</span></p>
               </div>
               <div class="plate-footer clearfix">
                 <div class="avatar">
@@ -219,8 +216,42 @@
     </div>
   </div>
 </main>
+---------------------<!--main-content end-->
+--------------------<!--footer-content start-->
 <footer>
-  <div class="footer-content"></div>
+  <div class="footer-content">
+    <div class="footer-images"></div>
+    <div class="footer-form">
+      <div class="container">
+        <p>Subscribe to our newsletter</p>
+        <form action="#" method="post">
+          <ul>
+            <li><input id="email-adress" type="email" placeholder="Email Adress"></li>
+            <li><input id="subscribe-button" type="submit" class="button" value="subscribe"></li>
+          </ul>
+        </form>
+      </div>
+    </div>
+    <div class="footer-menu">
+      <div class="container">
+        <nav class="main-menu">
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">portfolio</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">pages</a></li>
+            <li><a href="#">shop</a></li>
+            <li><a href="#">components</a></li>
+            <li><a href="#">features</a></li>
+          </ul>
+        </nav>
+        <span class="languages">
+        <a href="#"><i class="fas fa-globe"></i>eng<i class="fas fa-angle-down"></i></a>
+        </span>
+      </div>
+    </div>
+  </div>
 </footer>
+---------------------------<!--footer-content end-->
 </body>
 </html>
