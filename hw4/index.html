@@ -14,7 +14,7 @@
 <div class="header-wrapper">
   <div class="layer">
     <div class="container">
-      <header>
+      <header class="clearfix">
         <nav id="main-menu">
           <ul>
             <li class="active"><a href="#">home<i class="fas fa-angle-down"></i></a></li>
@@ -31,9 +31,9 @@
         </div>
       </header>
       <div class="main-buner">
-        <h2>inspiration</h2>
-        <p>5 Ways milllennials can start building their future today</p>
-        <a href="#">read more</a>
+        <p>inspiration</p>
+        <h2>5 Ways milllennials can start building their future today</h2>
+        <a class="send-button" href="#">read more</a>
       </div>
     </div>
   </div>
@@ -42,14 +42,14 @@
   <div class="container">
     <aside class="sidebar">
       <h4 class="header-sidebar"><a href="#">categories</a></h4>
-      <ul>
+      <ul class="category-list">
         <li><a href="#">Photography<span>195</span></a></li>
         <li><a href="#">Illustration<span>15</span></a></li>
         <li><a href="#">Graphic Design<span>36</span></a></li>
         <li><a href="#">Web design<span>220</span></a></li>
         <li><a href="#">Videography<span>17</span></a></li>
       </ul>
-      <h4>subcribe</h4>
+      <h4>subscribe</h4>
       <form action="#" method="POST">
         <div class="form-for-send">
           <label for="name">Name</label>
@@ -60,12 +60,23 @@
           <input id="email" type="email" value="" placeholder="email@adress.com">
         </div>
         <div class="submit-form">
-          <input type="submit" name="submit" value="subcribe">
+          <input type="submit" name="submit" value="subscribe">
+          <div class="underline-submit"><span>or</span></div>
         </div>
       </form>
+      <div class="social-network">
+        <ul>
+          <li class="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li class="vk"><a href="#"><i class="fab fa-vk"></i></a></li>
+          <li class="pinterest"><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+          <li class="tumblr"><a href="#"><i class="fab fa-tumblr"></i></a></li>
+          <li class="dribbble"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+        </ul>
+      </div>
     </aside>
     <div class="content">
-      <section class="main-plate">
+      <article class="main-plate">
         <div class="plate">
           <figure class="plate-header">
             <img src="images/Layer_48.jpg" alt="">
@@ -86,7 +97,7 @@
               tougher
               our life becomes. I know this because I was very skilled at deflecting change in life.</p>
           </div>
-          <div class="plate-footer">
+          <div class="plate-footer clearfix">
             <div class="avatar">
               <img src="images/Photo.jpg" alt="Avatar">
             </div>
@@ -95,8 +106,8 @@
             <p class="info">Apri 28, 2016<span>10:15</span></p>
           </div>
         </div>
-      </section>
-      <section class="plate-list-section">
+      </article>
+      <article class="plate-list-section">
         <ul class="plate-list">
           <li>
             <div class="plate">
@@ -122,7 +133,7 @@
                 <p>Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vel vehicula lorem and lacus.
                   Vestibulum vitae mauris.</p>
               </div>
-              <div class="plate-footer">
+              <div class="plate-footer clearfix">
                 <div class="avatar">
                   <img src="images/Photo%20(1).jpg" alt="Avatar">
                 </div>
@@ -155,7 +166,7 @@
                 <p>Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vel vehicula lorem and lacus.
                   Vestibulum vitae mauris.</p>
               </div>
-              <div class="plate-footer">
+              <div class="plate-footer clearfix">
                 <div class="avatar">
                   <img src="images/Photo%20(2).jpg" alt="Avatar">
                 </div>
@@ -190,7 +201,7 @@
                 <p>Lorem ipsum dolor sit amet, to consectetur adipi scing elit. Nulla vel vehicula lorem and lacus.
                   Vestibulum vitae mauris.</p>
               </div>
-              <div class="plate-footer">
+              <div class="plate-footer clearfix">
                 <div class="avatar">
                   <img src="images/Photo.jpg" alt="Avatar">
                 </div>
@@ -201,7 +212,10 @@
             </div>
           </li>
         </ul>
-      </section>
+      </article>
+      <div class="more-button">
+        <a href="#">More<span class="icon"><i class="fas fa-arrow-right"></i></span></a>
+      </div>
     </div>
   </div>
 </main>

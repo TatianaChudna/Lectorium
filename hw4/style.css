@@ -5,7 +5,7 @@ body {
   background-color: #f5f5f5;
 }
 
-header {
+.clearfix {
   overflow: hidden;
 }
 
@@ -13,11 +13,13 @@ a {
   text-decoration: none;
 }
 
+                          /*Header*/
+
 .header-wrapper {
   font-family: 'Montserrat', sans-serif;
   height: 800px;
   text-transform: uppercase;
-  background-image: url("images/Layer_66.jpg");
+  background-image: url("images/bc2.jpg");
   margin-bottom: 91px;
 }
 
@@ -30,6 +32,7 @@ a {
 .container {
   width: 1170px;
   margin: 0 auto;
+  position: relative;
 }
 
 .logo-wrapper a h1 {
@@ -75,7 +78,7 @@ a {
   color: #fff;
 }
 
-.main-buner h2 {
+.main-buner p {
   font-size: 18px;
   font-weight: 400;
   font-variant: small-caps;
@@ -83,7 +86,7 @@ a {
   margin: 216px 0 37px;
 }
 
-.main-buner p {
+.main-buner h2 {
   font-size: 42px;
   font-weight: 900;
   letter-spacing: 0.8px;
@@ -92,7 +95,7 @@ a {
   line-height: 51px;
 }
 
-.main-buner a {
+.main-buner .send-button {
   display: inline-block;
   color: #ffffff;
   font-size: 17px;
@@ -102,12 +105,14 @@ a {
   background-color: #303f9f;
   padding: 14px 25px;
   margin-top: 88px;
+  box-shadow: 0 17px 24px rgba(48, 63, 159, 0.2);
 }
+                                                  /*End header*/
+                                                    /*Main*/
 
 .plate {
   background-color: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
-  margin-bottom: 88px;
   border-radius: 4px 4px 0 0;
 }
 
@@ -115,92 +120,18 @@ a {
   margin-right: 350px;
 }
 
-.sidebar {
-  float: right;
-  background-color: #fff;
-  width: 271px;
-  height: 1317px;
-  padding: 34px 30px 34px 29px;
-  letter-spacing: 0.4px;
-}
-
-.sidebar h4 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18.1px;
-  font-weight: 700;
-  letter-spacing: 0.35px;
-  text-transform: uppercase;
-  padding-bottom: 7px;
-  color: #3f51b5;
-  border-bottom: 1px solid #aec3ff;
-}
-
-.sidebar .header-sidebar a {
-  color: #3f51b5;
-}
-
-.sidebar ul {
-  margin-top: 3px;
-  margin-bottom: 33px;
-}
-
-.sidebar span {
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.56px;
-  float: right;
-}
-
-.sidebar a {
-  color: #000;
-}
-
-.sidebar li {
-  opacity: 0.87;
-  letter-spacing: 0.56px;
-  line-height: 40px;
-  overflow: hidden;
-  border-bottom: 1px solid #ebeae9;
-  margin-top: -1px;
-}
-
-.sidebar li:last-child{
-  border-bottom: none;
-}
-
-.form-for-send label {
-  display: block;
-  font-size: 16px;
-  letter-spacing: 0.8px;
-  opacity: 0.87;
-  margin: 14px 0;
-}
-
-.form-for-send input {
-  font-size: 16px;
-  letter-spacing: 0.8px;
-  padding: 10px 86px 12px 14px;
-}
-
-.submit-form input {
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  font-size: 16px;
-  letter-spacing: 1.2px;
-  background-color: #3f51b5;
-  padding: 13px 84px 13px 89px;
-  margin-top: 10px;
-  border-radius: 4px;
-  color: #fff;
-}
-
-main .container {
-  overflow: hidden;
+.main-plate {
+  margin-bottom: 88px;
 }
 
 .plate-header {
   position: relative;
 }
+
+.plate-list-section {
+  margin-bottom: 74px;
+}
+
 .plate-list .plate-header {
   height: 160px;
 }
@@ -244,7 +175,6 @@ main .container {
 
 .plate-footer {
   font-family: 'Montserrat', sans-serif;
-  overflow: hidden;
   padding: 19px 20px 21px;
 }
 
@@ -397,5 +327,184 @@ main .container {
   letter-spacing: 0.7px;
   color: #fff;
   margin-left: 18px;
-
 }
+
+.content .more-button {
+  text-align: right;
+}
+
+.content .more-button a {
+  color: #303f9f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.8px;
+}
+
+.content .more-button .icon {
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  margin-left: 8px;
+}
+                                                   /*End main-menu*/
+                                                   /*Sidebar*/
+.sidebar {
+  float: right;
+  background-color: #fff;
+  width: 271px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding: 34px 30px 34px 29px;
+  letter-spacing: 0.4px;
+}
+
+.sidebar h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18.1px;
+  font-weight: 700;
+  letter-spacing: 0.35px;
+  text-transform: uppercase;
+  padding-bottom: 7px;
+  color: #3f51b5;
+  border-bottom: 1px solid #aec3ff;
+}
+
+.sidebar .header-sidebar a {
+  color: #3f51b5;
+}
+
+.sidebar ul {
+  margin-top: 3px;
+  margin-bottom: 33px;
+}
+
+.sidebar .category-list span {
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.56px;
+  float: right;
+}
+
+.sidebar a {
+  color: #000;
+}
+
+.sidebar li {
+  opacity: 0.87;
+  letter-spacing: 0.56px;
+  line-height: 40px;
+  overflow: auto;
+  border-bottom: 1px solid #ebeae9;
+  margin-top: -1px;
+}
+
+.sidebar li:last-child{
+  border-bottom: none;
+}
+
+.form-for-send label {
+  display: block;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  opacity: 0.87;
+  margin: 14px 0;
+}
+
+.form-for-send input {
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  padding: 10px 86px 12px 14px;
+}
+
+.submit-form input {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  background-color: #3f51b5;
+  padding: 13px 75px 13px 89px;
+  margin-top: 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.submit-form .underline-submit {
+  border-bottom: 1px solid #757575;
+  padding-top: 23px;
+  position: relative;
+}
+
+.submit-form .underline-submit span {
+  position: absolute;
+  top: 12px;
+  right: 122px;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  background-color: #fff;
+  padding: 2px 4px;
+}
+
+.sidebar .social-network ul {
+  margin-top: 28px;
+}
+
+.sidebar .social-network li {
+  display: inline-block;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  margin-right: 6px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.sidebar .social-network .facebook {
+  background-color: #3b5999;
+}
+
+.sidebar .social-network .twitter {
+  background-color: #55acee;
+}
+
+.sidebar .social-network .vk {
+  background-color: #4c75a3;
+}
+
+.sidebar .social-network .pinterest {
+  background-color: #ff2e56;
+}
+
+
+.sidebar .social-network .tumblr {
+  background-color: #34465d;
+}
+
+.sidebar .social-network .dribbble {
+  background-color: #ea4c89;
+}
+
+.sidebar .social-network li:last-child {
+  margin-right: 0;
+}
+
+.sidebar .social-network li a {
+  color: #fff;
+  display: block;
+  height: 100%;
+}
+
+.sidebar .social-network li a i {
+  font-size: 16px;
+}
+                                          /*End sidebar*/
+                                            /*Fotter*/
+
+
