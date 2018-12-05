@@ -15,18 +15,133 @@ a {
   text-decoration: none;
 }
 
+/*---------------------------------------------- Start header ---------------------------------------------*/
+
+.top-bar {
+  background-color: #191919;
+  height: 40px;
+}
+
+.user-registration {
+  float: right;
+}
+
+.user-registration li {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 11px;
+  letter-spacing: 0.7px;
+  border-left: 1px solid #535353;
+}
+
+.user-registration li:first-child {
+  border-left: none;
+  margin-right: 9px;
+}
+
+.user-registration li a {
+  color: #fff;
+  text-transform: uppercase;
+  padding-right: 3px;
+  opacity: 0.5;
+}
+
+.user-registration li a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.user-registration .fa-user-circle {
+  font-size: 16px;
+  padding-right: 8px;
+}
+
+.user-registration .fa-globe {
+  font-size: 16px;
+  padding-right: 7px;
+  padding-left: 16px;
+}
+
+.user-registration .fa-angle-down {
+  padding-left: 5px;
+}
+
+.header-network {
+  padding: 13px;
+  padding-left: 0;
+  font-size: 16px;
+}
+
+.header-network ul {
+  opacity: 0.38;
+}
+
+.header-network li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.header-network li a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.header-network li a {
+  color: #fff;
+}
+
+.header-icons {
+  margin-right: 17px;
+  margin-top: 27px;
+}
+
+.header-icons li {
+  display: inline-block;
+  border-left: 1px solid #5b5b5a;
+  margin-left: 11px;
+}
+
+.header-icons li:first-child {
+  border-left: none;
+  margin-left: 0;
+}
+
+.header-icons li a {
+  color: #fff;
+  padding-left: 13px;
+}
+
+.header-icons li a:hover {
+  opacity: 0.5;
+}
+
 .header-wrapper {
   font-family: 'Montserrat', sans-serif;
   height: 800px;
   text-transform: uppercase;
-  background-image: url("images/bc2.jpg");
+  background-image: url("images/img1.jpg");
   margin-bottom: 91px;
+  position: relative;
 }
 
-.header-wrapper .layer {
-  background-color: #212121;
-  opacity: 0.87;
-  height: 100%;
+.header-wrapper .fa-angle-left,
+.header-wrapper .fa-angle-right {
+  position: absolute;
+  color: #fff;
+  font-size: 34px;
+}
+
+.header-wrapper .fa-angle-left:hover,
+.header-wrapper .fa-angle-right:hover {
+  opacity: 0.4;
+}
+
+.header-wrapper .fa-angle-left {
+  top: 367px;
+  left: 40px;
+}
+
+.header-wrapper .fa-angle-right {
+  top: 367px;
+  right: 38px;
 }
 
 .container {
@@ -43,32 +158,54 @@ a {
   margin-top: 22px;
 }
 
-.main-menu {
-  float: right;
-  margin-top: 28px;
+.logo-wrapper a h1:hover {
+  opacity: 0.5;
 }
 
-.main-menu li {
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.main-menu .navigation-menu {
+  margin-top: 28px;
+  margin-left: 55px;
+}
+
+.main-menu .navigation-menu li {
   display: inline-block;
   margin-left: 12px;
   padding-left: 11px;
 }
 
-.main-menu a {
+.main-menu .navigation-menu a {
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   letter-spacing: 0.68px;
 }
 
-.main-menu li.active,
-.main-menu li:hover {
+.main-menu .navigation-menu li.active,
+.main-menu .navigation-menu li:hover {
   border-bottom: 4px solid #ff4081;
   padding-bottom: 24px;
 }
 
-.main-menu li a i {
+.main-menu .navigation-menu li a i {
   margin-left: 9px;
+}
+
+.main-menu .fa-search {
+  font-size: 18px;
+}
+
+.main-menu .fa-heart {
+  font-size: 20px;
+}
+
+.main-menu .fa-shopping-cart {
+  font-size: 18px;
 }
 
 .main-buner {
@@ -83,7 +220,7 @@ a {
   font-weight: 400;
   font-variant: small-caps;
   letter-spacing: 1.7px;
-  margin: 216px 0 37px;
+  margin: 216px 0 17px;
 }
 
 .main-buner h2 {
@@ -98,9 +235,15 @@ a {
 .main-buner .send-button {
   display: inline-block;
   padding: 14px 25px;
-  margin-top: 88px;
+  margin-top: 29px;
+  margin-bottom: 81px;
 }
 
+.main-buner .send-button:hover {
+  background-color: #0c28da;
+}
+
+/*--------------------------------------------*/
 .button {
   color: #fff;
   background-color: #303f9f;
@@ -111,6 +254,65 @@ a {
   letter-spacing: 0.9px;
 }
 
+.header-avatar .avatar {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.header-avatar .avatar img {
+  border-radius: 50%;
+}
+
+.header-avatar .name,
+.header-avatar .info {
+  text-align: center;
+  color: white;
+  text-transform: none;
+}
+
+.header-avatar .name {
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  margin-bottom: 12px;
+}
+
+.header-avatar .info {
+  font-size: 11px;
+  letter-spacing: 1.2px;
+}
+
+.header-avatar .info span {
+  padding-left: 11px;
+  letter-spacing: 1.3px;
+}
+
+.header-info {
+  text-align: center;
+  margin-top: 36px;
+}
+
+.header-info li {
+  display: inline-block;
+}
+
+.header-info li a {
+  color: #fff;
+  text-transform: none;
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+.header-info .fa-comment-alt {
+  padding-right: 12px;
+}
+
+.header-info .fa-heart {
+  padding-left: 21px;
+  padding-right: 10px;
+}
+/*-------------------------------------------- End header -----------------------------------------------------*/
+
+/*------------------------------------------------ Start main ------------------------------------------------*/
 .plate {
   background-color: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
@@ -137,7 +339,7 @@ a {
   height: 160px;
 }
 
-.plate-header .layer {
+/*.plate-header .layer {
   opacity: 0.45;
   position: absolute;
   top: 0;
@@ -148,7 +350,7 @@ a {
   background: -webkit-linear-gradient(top, rgba(33, 33, 33, 0) 45%, rgba(33, 33, 33, 0) 52%, rgba(33, 33, 33, 0) 70%, rgba(33, 33, 33, 1) 100%);
   background: linear-gradient(to bottom, rgba(33, 33, 33, 0) 45%, rgba(33, 33, 33, 0) 52%, rgba(33, 33, 33, 0) 70%, rgba(33, 33, 33, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00212121', endColorstr='#212121', GradientType=0);
-}
+*/
 
 .plate-header img {
   width: 100%;
@@ -365,6 +567,9 @@ a {
   height: 42px;
   margin-left: 8px;
 }
+/*-------------------------------------------------- End main ----------------------------------------*/
+
+/*-------------------------------------------------- Start sidebar ------------------------------------------*/
 
 .sidebar {
   float: right;
@@ -520,8 +725,9 @@ a {
   font-size: 16px;
 }
 
-/*End sidebar*/
-/*Footer*/
+/* ----------------------------------------------- End sidebar ---------------------------------------------------*/
+
+/*------------------------------------------------ Start Footer -------------------------------------------------*/
 
 .footer-content .footer-images {
   height: 240px;
@@ -588,23 +794,23 @@ a {
 
 }
 
-.footer-content .footer-menu .main-menu {
+.footer-content .footer-menu ul {
   display: inline-block;
   float: none;
   margin-top: 32px;
 }
 
-.footer-content .footer-menu .main-menu li {
+.footer-content .footer-menu ul li {
   padding-right: 34px;
   margin-left: 0;
   padding-left: 0;
 }
 
-.footer-content .footer-menu .main-menu li:hover {
+.footer-content .footer-menu ul li:hover {
   border-bottom: none;
 }
 
-.footer-content .footer-menu .main-menu a {
+.footer-content .footer-menu ul a {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 400;
@@ -632,3 +838,4 @@ a {
   padding-right: 9px;
   font-size: 15px;
 }
+/*----------------------------------------------- End footer -------------------------------------------------*/
