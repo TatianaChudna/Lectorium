@@ -118,7 +118,6 @@ a {
   height: 800px;
   text-transform: uppercase;
   background-image: url("images/img1.jpg");
-  margin-bottom: 91px;
   position: relative;
 }
 
@@ -313,6 +312,60 @@ a {
 /*-------------------------------------------- End header -----------------------------------------------------*/
 
 /*------------------------------------------------ Start main ------------------------------------------------*/
+.content-filter {
+  height: 60px;
+  box-shadow: 0 1px 0 #dddddd;
+  background-color: #fff;
+  margin-bottom: 31px;
+}
+
+.content-filter .content-list {
+  padding-top: 15px;
+}
+
+.content-filter .content-list p {
+  display: inline-block;
+  opacity: 0.87;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+  font-variant: small-caps;
+  letter-spacing: 0.3px;
+}
+
+.content-filter .content-list ul {
+  display: inline-block;
+}
+
+.content-filter .content-list li {
+  display: inline-block;
+  border-radius: 15px;
+  background-color: #f5f5f5;
+  padding: 1px 28px;
+  margin-left: 14px;
+}
+
+.content-filter .content-list li.active,
+.content-filter .content-list li:hover {
+  border: 1px solid #3f51b5;
+}
+
+.content-filter .content-list li a.active,
+.content-filter .content-list li a:hover {
+  color: #3f51b5;
+}
+
+.content-filter .content-list li a {
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  font-variant: small-caps;
+  letter-spacing: 0.4px;
+}
+
 .plate {
   background-color: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
