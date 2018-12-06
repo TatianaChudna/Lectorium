@@ -377,7 +377,15 @@ a {
 }
 
 .main-plate {
-  margin-bottom: 88px;
+  margin-bottom: 21px;
+}
+
+.main-plate .play-button .fa-play-circle {
+  font-size: 48px;
+}
+
+.fa-play-circle:hover {
+  opacity: 0.5;
 }
 
 .plate-header {
@@ -385,14 +393,14 @@ a {
 }
 
 .plate-list-section {
-  margin-bottom: 74px;
+  margin-bottom: 21px;
 }
 
 .plate-list .plate-header {
   height: 160px;
 }
 
-/*.plate-header .layer {
+.plate-header .layer {
   opacity: 0.45;
   position: absolute;
   top: 0;
@@ -403,7 +411,7 @@ a {
   background: -webkit-linear-gradient(top, rgba(33, 33, 33, 0) 45%, rgba(33, 33, 33, 0) 52%, rgba(33, 33, 33, 0) 70%, rgba(33, 33, 33, 1) 100%);
   background: linear-gradient(to bottom, rgba(33, 33, 33, 0) 45%, rgba(33, 33, 33, 0) 52%, rgba(33, 33, 33, 0) 70%, rgba(33, 33, 33, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00212121', endColorstr='#212121', GradientType=0);
-*/
+}
 
 .plate-header img {
   width: 100%;
@@ -469,6 +477,54 @@ a {
 
 .plate-list .plate-footer .more-info {
   margin-top: 25px;
+}
+
+.plate-list-horizontal .plate-header {
+  float: left;
+}
+
+.plate-list-horizontal li {
+  margin-bottom: 21px;
+}
+
+.plate-list-horizontal .plate-header .icon-list {
+  margin-bottom: 0;
+}
+
+.plate-list-horizontal .plate-header img {
+  width: 260px;
+  height: 165px;
+}
+
+.plate-list-horizontal .plate .plate-text,
+.plate-list-horizontal .plate .plate-footer {
+  margin-left: 260px;
+}
+
+.plate-list-horizontal .plate-text {
+  padding: 7px 20px 19px 18px;
+}
+
+.plate-list-horizontal .plate-text h3 {
+  opacity: 0.87;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+  margin-bottom: 4px;
+}
+
+.plate-list-horizontal .plate-text p {
+  opacity: 0.87;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.27px;
+}
+
+.plate-list-horizontal .plate .plate-footer {
+  padding: 6px 21px 9px;
 }
 
 .plate-list {
@@ -595,6 +651,42 @@ a {
   color: #fff;
   margin-left: 18px;
 }
+
+.plate-list-vertical {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plate-list-vertical li {
+
+}
+
+.plate-list-vertical .plate-text {
+  padding: 8px 23px 0px 19px;
+}
+
+.plate-list-vertical h3 {
+  opacity: 0.87;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0.7px;
+  margin-bottom: 1px;
+}
+
+.plate-list-vertical p {
+  opacity: 0.87;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.54px;
+}
+
+.plate-list-vertical li:first-child {
+  margin-right: 20px;
+}
+
 
 .content .more-button {
   text-align: right;
