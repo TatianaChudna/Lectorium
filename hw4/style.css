@@ -662,7 +662,7 @@ a {
 }
 
 .plate-list-vertical .plate-text {
-  padding: 8px 23px 0px 19px;
+  padding: 8px 23px 13px 19px;
 }
 
 .plate-list-vertical h3 {
@@ -687,6 +687,14 @@ a {
   margin-right: 20px;
 }
 
+.plate-list-vertical .plate-footer {
+  padding: 10px 21px 13px 19px;
+}
+
+.plate-list-vertical .plate-footer .name {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
 
 .content .more-button {
   text-align: right;
