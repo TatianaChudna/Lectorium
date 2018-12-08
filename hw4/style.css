@@ -323,7 +323,7 @@ a {
   padding-top: 15px;
 }
 
-.content-filter .content-list p {
+.content-filter .content-list h4 {
   display: inline-block;
   opacity: 0.87;
   font-family: 'Montserrat', sans-serif;
@@ -416,6 +416,7 @@ a {
 .plate-header img {
   width: 100%;
   height: auto;
+  vertical-align: bottom;
 }
 
 .plate-text {
@@ -428,7 +429,7 @@ a {
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.4px;
-  margin-bottom: 7px;
+  margin-bottom: 9px;
 }
 
 .plate-text p {
@@ -520,7 +521,7 @@ a {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 0.27px;
+  letter-spacing: 0.57px;
 }
 
 .plate-list-horizontal .plate .plate-footer {
@@ -624,7 +625,7 @@ a {
 
 .plate-header .icon-list {
   float: right;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   margin-right: 20px;
 }
 
@@ -639,7 +640,7 @@ a {
 }
 
 .plate-list .plate-header .icon-list {
-  margin-bottom: 13px;
+  margin-bottom: 9px;
   margin-right: 13px;
 }
 
@@ -655,6 +656,7 @@ a {
 .plate-list-vertical {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 43px;
 }
 
 .plate-list-vertical li {
