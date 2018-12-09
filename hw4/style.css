@@ -1118,43 +1118,133 @@ a {
   cursor: pointer;
 }
 
+.footer-body {
+  height: 540px;
+  background-color: #212121;
+}
+
+.footer-body .container {
+  padding-top: 42px;
+}
+
+.footer-body .pages-widget {
+
+}
+
+.footer-body .pages-widget h5 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29px;
+  text-transform: uppercase;
+  letter-spacing: 0.55px;
+  margin-bottom: 22px;
+}
+
+.footer-body .pages-widget > ul > li {
+  position: relative;
+  border: 1px solid #757575;
+  border-radius: 4px;
+  width: 268px;
+  margin-bottom: 5px;
+}
+
+.footer-body .pages-widget li a {
+  display: inline-block;
+  color: #b2b2b2;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  padding-left: 14px;
+  padding-bottom: 15px;
+  padding-top: 14px;
+}
+
+.footer-body .pages-widget a i {
+  color: #909090;
+  font-size: 17px;
+  position: absolute;
+  top: 13px;
+  right: 13px;
+}
+
+.pages-widget .sublist {
+  border-top: 1px solid #757575;
+  padding-top: 2px;
+  padding-bottom: 14px;
+}
+
+.pages-widget .sublist li a {
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  color: #747474;
+  text-transform: capitalize;
+  padding-bottom: 8px;
+}
+}
+
 .footer-content .footer-menu {
   height: 80px;
   background-color: #303030;
-
 }
 
-.footer-content .footer-menu ul {
-  display: inline-block;
-  float: none;
+.footer-menu .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu .footer-navigation {
   margin-top: 32px;
 }
 
-.footer-content .footer-menu ul li {
-  padding-right: 34px;
-  margin-left: 0;
-  padding-left: 0;
+.footer-menu .footer-navigation li {
+ display: inline-block;
+  margin-right: 39px;
 }
 
-.footer-content .footer-menu ul li:hover {
-  border-bottom: none;
-}
-
-.footer-content .footer-menu ul a {
+.footer-menu .footer-navigation a {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 11px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.66px;
+  color: #fff;
+}
+
+.footer-menu .footer-search {
+  margin-top: 21px;
+  margin-left: 66px;
+  position: relative;
+}
+
+.footer-search #footer-search {
+  width: 220px;
+  border-radius: 17px;
+  border: 1px solid #989898;
+  background-color: #303030 ;
+  font-size: 16px;
   font-weight: 400;
-  letter-spacing: 0.8px;
+  line-height: 21px;
+  letter-spacing: 0.64px;
+  padding: 6px 14px 7px 18px;
+}
+
+.footer-search .fa-search {
+  position: absolute;
+  top: -25px;
+  right: 12px;
+  color: #989898;
+  line-height: 90px;
+  letter-spacing: 0.9px;
 }
 
 .footer-menu .languages {
-  position: absolute;
-  top: 30px;
-  right: 0;
+  margin-top: 30px;
 }
 
 .footer-menu .languages a {
-  color: #fff;
+  color: #717171;
   text-transform: uppercase;
   font-size: 12px;
 }
