@@ -345,35 +345,33 @@ a {
 
 .content-filter .content-list ul {
   display: inline-block;
+  margin-left: 15px;
 }
 
 .content-filter .content-list li {
   display: inline-block;
-  border-radius: 15px;
-  background-color: #f5f5f5;
-  padding: 1px 28px;
-  margin-left: 14px;
-  border: 1px solid rgba(0, 0, 0, 0);
+  margin-right: 11px;
 }
 
-.content-filter .content-list li.active,
-.content-filter .content-list li:hover {
-  border: 1px solid #3f51b5;
-}
-
-.content-filter .content-list li a.active,
+.content-filter .content-list li.active a,
 .content-filter .content-list li a:hover {
+  border: 1px solid #3f51b5;
   color: #3f51b5;
 }
 
 .content-filter .content-list li a {
-  color: #000;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  background-color: #f5f5f5;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 27px;
   font-variant: small-caps;
   letter-spacing: 0.4px;
+  padding-left: 26px;
+  padding-right: 30px;
 }
 
 .plate {
@@ -1035,21 +1033,11 @@ a {
   display: inline-block;
   margin-left: 2px;
   margin-bottom: 10px;
-  background-color: #eeeeee;
-  border: 1px solid rgba(0, 0, 0, 0);
-  border-radius: 4px;
 }
 
-.sidebar-tags li.active a,
 .sidebar-tags li a:hover {
-  border: 1px solid #3f51b5;
-  border-radius: 4px;
-  color: #3f51b5;
-}
-
-.sidebar-tags li a.active,
-.sidebar-tags li a:hover {
-
+  background-color: #303030;
+  color: #fff;
 }
 
 .sidebar-tags li a {
@@ -1059,6 +1047,8 @@ a {
   color: #010101;
   opacity: 0.87;
   display: inline-block;
+  border-radius: 4px;
+  background-color: #eeeeee;
   text-align: center;
   padding: 7px 26px 6px 12px;
 }
