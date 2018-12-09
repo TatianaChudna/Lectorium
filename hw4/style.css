@@ -720,13 +720,13 @@ a {
 }
 
 .plate-list-vertical .plate-footer .name {
-  margin-bottom: 0;
+  margin-bottom: 5px;
   margin-top: 12px;
 }
 
 .content .more-button {
   text-align: right;
-  margin-bottom: 47px;
+  margin-bottom: 44px;
 }
 
 .content .more-button a {
@@ -760,7 +760,7 @@ a {
   top: 0;
   right: 0;
   height: 100%;
-  padding: 23px 0 13px 38px;
+  padding: 23px 0 20px 38px;
   letter-spacing: 0.4px;
 }
 
@@ -1059,8 +1059,10 @@ a {
 
 .footer-content .footer-images {
   height: 240px;
-  background: url("images/footer-images.jpg") no-repeat;
-  background-size: cover;
+}
+
+.footer-images ul {
+  display: flex;
 }
 
 .footer-content .footer-form {
