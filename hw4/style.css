@@ -14,7 +14,18 @@ body {
 a {
   text-decoration: none;
 }
+.main-block {
+  display: flex;
+  padding-top: 29px;
+}
 
+.content {
+  margin-right: 39px;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
 /*---------------------------------------------- Start header ---------------------------------------------*/
 
 .top-bar {
@@ -325,7 +336,7 @@ a {
   height: 60px;
   box-shadow: 0 1px 0 #dddddd;
   background-color: #fff;
-  margin-bottom: 31px;
+  margin-bottom: 2px;
 }
 
 .content-filter .content-list {
@@ -380,10 +391,6 @@ a {
   border-radius: 4px;
 }
 
-.content {
-  margin-right: 350px;
-}
-
 .main-plate {
   margin-bottom: 21px;
 }
@@ -401,7 +408,7 @@ a {
 }
 
 .plate-list-section {
-  margin-bottom: 21px;
+  margin-bottom: 18px;
 }
 
 .plate-list .plate-header {
@@ -547,7 +554,7 @@ a {
 }
 
 .plate-list {
-  margin: 0 -8px;
+  margin: 0 -9px;
 }
 
 .plate-list > li {
@@ -682,7 +689,7 @@ a {
 }
 
 .plate-list-vertical .plate-text {
-  padding: 8px 23px 13px 19px;
+  padding:11px 22px 13px 19px;
 }
 
 .plate-list-vertical h3 {
@@ -708,7 +715,7 @@ a {
 }
 
 .plate-list-vertical .icon-list li {
-  margin-left: 2x;
+  margin-left: 2px;
 }
 
 .plate-list-vertical li:first-child {
@@ -727,6 +734,10 @@ a {
 .content .more-button {
   text-align: right;
   margin-bottom: 44px;
+}
+
+.content .more-button a:hover {
+  color: #ff2e56;
 }
 
 .content .more-button a {
@@ -753,17 +764,21 @@ a {
 /*-------------------------------------------------- Start sidebar ------------------------------------------*/
 
 .sidebar {
-  float: right;
   background-color: #fff;
-  width: 271px;
+  width: 310px;
+  padding-left: 39px;
+  position: relative;
+  padding-top: 23px;
+}
+.sidebar:after {
+  content: '';
+  background: #fff;
+  width: 376px;
+  height: 100%;
   position: absolute;
   top: 0;
-  right: 0;
-  height: 100%;
-  padding: 23px 0 20px 38px;
-  letter-spacing: 0.4px;
+  left: 310px;
 }
-
 .sidebar #search {
   width: 270px;
   border-radius: 22px;
@@ -813,6 +828,10 @@ a {
   padding-bottom: 7px;
   color: #3f51b5;
   border-bottom: 1px solid #aec3ff;
+}
+
+.sidebar h4 a {
+  color: #3f51b5;
 }
 
 .sidebar .header-sidebar a {
@@ -878,6 +897,10 @@ a {
   cursor: pointer;
 }
 
+.submit-form input:hover {
+  background-color: #0c28da;
+}
+
 .submit-form .underline-submit {
   border-bottom: 1px solid #757575;
   padding-top: 23px;
@@ -907,6 +930,10 @@ a {
   margin-right: 6px;
   text-align: center;
   line-height: 35px;
+}
+
+.sidebar .social-network li:hover {
+  background-color: #303030;
 }
 
 .sidebar .social-network .facebook {
@@ -1019,6 +1046,10 @@ a {
   float: left;
 }
 
+.post-widget img:hover {
+  opacity: 0.5;
+}
+
 .post-widget a:last-child {
   position: absolute;
   top: 0;
@@ -1070,7 +1101,7 @@ a {
   background: url("images/footer-form img.jpg");
 }
 
-.footer-content .footer-form p {
+.footer-content .footer-form h5 {
   display: inline-block;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
@@ -1118,6 +1149,11 @@ a {
   cursor: pointer;
 }
 
+.footer-content .footer-form #subscribe-button:hover {
+  background-color: #0c28da;
+}
+
+
 .footer-body {
   background-color: #212121;
 }
@@ -1128,7 +1164,7 @@ a {
   justify-content: space-between;
 }
 
-.footer-body h5 {
+.footer-body h6 {
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   font-size: 18px;
@@ -1238,6 +1274,10 @@ a {
   margin-right: 6px;
   text-align: center;
   line-height: 35px;
+}
+
+.twitter-widget .social-network li:hover {
+  background-color: #aec3ff;
 }
 
 .twitter-widget .social-network .facebook {
@@ -1351,6 +1391,10 @@ a {
   font-size: 13px;
 }
 
+.news-letter #footer-button:hover {
+  background-color: #3f51b5;
+}
+
 .footer-content .footer-menu .container {
   display: flex;
   justify-content: space-between;
@@ -1377,6 +1421,10 @@ a {
   font-weight: 600;
   letter-spacing: 0.66px;
   color: #fff;
+}
+
+.footer-menu .footer-navigation a:hover {
+  color: #aec3ff;
 }
 
 .footer-menu .footer-search {
@@ -1408,6 +1456,10 @@ a {
 
 .footer-menu .languages {
   margin-top: 30px;
+}
+
+.footer-menu .languages:hover {
+  border-bottom: 1px solid #909090;
 }
 
 .footer-menu .languages a {
