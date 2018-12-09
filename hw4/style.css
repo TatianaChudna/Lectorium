@@ -823,7 +823,7 @@ a {
 
 .sidebar ul {
   margin-top: 3px;
-  margin-bottom: 33px;
+  margin-bottom: 32px;
 }
 
 .sidebar .category-list span {
@@ -898,7 +898,7 @@ a {
 
 .sidebar .social-network ul {
   margin-top: 28px;
-  margin-bottom: 44px;
+  margin-bottom: 46px;
 }
 
 .sidebar .social-network li {
@@ -950,7 +950,7 @@ a {
 }
 
 .sidebar-list {
-  margin-top: 20px;
+  margin-top: 19px;
 }
 
 .sidebar-list ul {
@@ -960,9 +960,9 @@ a {
 
 .sidebar-list li {
   flex-basis: 50%;
-  height: 40px;
   border: 1px solid #3f51b5;
   border-radius: 4px 0 0 4px;
+  overflow: hidden;
 }
 
 .sidebar-list li:last-child {
@@ -970,6 +970,7 @@ a {
 }
 
 .sidebar-list li a {
+  display: inline-block;
   color: #3f51b5;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -977,33 +978,33 @@ a {
   line-height: 30px;
   font-variant: small-caps;
   letter-spacing: 0.8px;
-  padding-left: 23px;
+  padding-left: 2px;
+  padding-top: 5px;
+  padding-bottom: 4px;
+  text-align: center;
+  width: 100%;
 }
 
-.sidebar-list li.active,
-.sidebar-list li:hover {
-  background-color: #3f51b5;
-}
-
-.sidebar-list li a.active,
+.sidebar-list li.active a,
 .sidebar-list li a:hover {
+  background-color: #3f51b5;
   color: #fff;
 }
 
-.post-widget {
+.post-widget li a i {
+  padding-right: 5px;
 }
 
 .post-widget li {
   border-bottom: 1px solid #dee5e9;
   position: relative;
-  padding-bottom: 7px;
+  padding-bottom: 27px;
   margin-bottom: 13px;
 }
 
 .post-widget a {
   font-size: 12px;
   font-weight: 400;
-  line-height: 24px;
   margin-left: 8px;
   letter-spacing: 0;
 }
@@ -1018,48 +1019,48 @@ a {
 
 .post-widget img {
   float: left;
-  width: 100px;
-  height: 80px;
 }
 
 .post-widget a:last-child {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 1px;
 }
 
 .sidebar-tags ul {
-  margin-top: 14px;
+  margin-top: 20px;
 }
 
 .sidebar-tags ul li {
   display: inline-block;
-  padding: 0 16px;
   margin-left: 2px;
   margin-bottom: 10px;
+  background-color: #eeeeee;
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 4px;
-  background-color: #eeeeee;
-  height: 30px;
 }
 
-.sidebar-tags li.active,
-.sidebar-tags li:hover {
+.sidebar-tags li.active a,
+.sidebar-tags li a:hover {
   border: 1px solid #3f51b5;
+  border-radius: 4px;
+  color: #3f51b5;
 }
 
 .sidebar-tags li a.active,
 .sidebar-tags li a:hover {
-  color: #3f51b5;
+
 }
 
 .sidebar-tags li a {
   font-weight: 400;
-  line-height: 40px;
   letter-spacing: 0.56px;
   text-transform: capitalize;
   color: #010101;
   opacity: 0.87;
+  display: inline-block;
+  text-align: center;
+  padding: 7px 26px 6px 12px;
 }
 
 /* ----------------------------------------------- End sidebar ---------------------------------------------------*/
