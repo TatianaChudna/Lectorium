@@ -26,6 +26,14 @@ a {
 .button:hover {
   opacity: 0.5;
 }
+
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover {
+  color: #ff2e56;
+}
 /*---------------------------------------------- Start header ---------------------------------------------*/
 
 .top-bar {
@@ -166,10 +174,6 @@ a {
   letter-spacing: 1.92px;
   color: #fff;
   margin-top: 22px;
-}
-
-.logo-wrapper a h1:hover {
-  opacity: 0.5;
 }
 
 .main-menu {
