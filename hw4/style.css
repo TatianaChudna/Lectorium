@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900|Open+Sans:400,700');
 
 body {
-  width: 1920px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   background-color: #f5f5f5;
 }
 
 .clearfix {
-  overflow: hidden;
+  overflow: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 a {
@@ -29,7 +34,6 @@ a {
 
 
 h1:hover,
-h2:hover,
 h3:hover,
 h4:hover {
   color: #ff2e56;
@@ -168,7 +172,11 @@ h4:hover {
   position: relative;
 }
 
-.logo-wrapper a h1 {
+.logo-wrapper h1 {
+  margin-top: 23px;
+}
+
+.logo-wrapper h1 a {
   font-size: 23px;
   font-weight: 600;
   letter-spacing: 1.92px;
@@ -225,8 +233,10 @@ h4:hover {
 .main-buner {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
   color: #fff;
+  max-width: 854px;
+  margin: 215px auto 0;
+  text-align: center;
 }
 
 .main-buner p {
@@ -234,15 +244,13 @@ h4:hover {
   font-weight: 400;
   font-variant: small-caps;
   letter-spacing: 1.7px;
-  margin: 216px 0 17px;
+  margin-bottom: 18px;
 }
 
 .main-buner h2 {
   font-size: 42px;
   font-weight: 900;
   letter-spacing: 0.8px;
-  width: 854px;
-  padding-left: 161px;
   line-height: 51px;
 }
 
@@ -268,26 +276,18 @@ h4:hover {
   letter-spacing: 0.9px;
 }
 
-.header-avatar {
-  text-align: center;
-}
-
-.header-avatar .avatar {
-  text-align: center;
-  margin-bottom: 15px;
-}
-
 .header-avatar .avatar img {
   border-radius: 50%;
+  display: block;
+  margin: 0 auto 15px;
 }
 
-.avatar img:hover {
+.avatar:hover {
   opacity: 0.5;
 }
 
 .header-avatar .name,
 .header-avatar .info {
-  text-align: center;
   color: white;
   text-transform: none;
 }
@@ -310,7 +310,6 @@ h4:hover {
 }
 
 .header-info {
-  text-align: center;
   margin-top: 36px;
 }
 
@@ -419,8 +418,9 @@ h4:hover {
   height: 160px;
 }
 
-.plate-header .layer {
+.plate-header:before {
   opacity: 0.45;
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -432,7 +432,7 @@ h4:hover {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00212121', endColorstr='#212121', GradientType=0);
 }
 
-.plate-header .layer:hover {
+.plate-header:hover:before {
   background: rgba(0, 0, 0, 0.5);
 }
 
@@ -484,6 +484,7 @@ h4:hover {
   letter-spacing: 0.6px;
   margin-bottom: 10px;
   margin-top: 7px;
+  color: #000;
 }
 
 .plate-footer .info {
@@ -557,19 +558,14 @@ h4:hover {
   padding: 11px 21px 9px;
 }
 
-.plate-list {
-  margin: 0 -9px;
-}
-
 .plate-list > li {
   display: inline-block;
   width: 260px;
-  margin: 0 8px;
+  margin-right: 16px;
 }
 
 .plate-list li:last-child {
-  margin-left: 9px;
-  margin-right: 7px;
+  margin-right: 0;
 }
 
 .plate .plate-text .gradient {
@@ -610,7 +606,7 @@ h4:hover {
   color: #fff;
   font-size: 42px;
   font-weight: 400;
-  margin: -21px -21px;
+  transform: translate(-50%, -50%);
   cursor: pointer;
 }
 
@@ -636,18 +632,18 @@ h4:hover {
   right: 10px;
 }
 
-.plate-header .image-caption {
+.plate-header .figure-caption {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
 }
 
-.plate-header .image-caption a {
+.plate-header .figure-caption a {
   color: #fff;
 }
 
-.plate-header .image-caption li {
+.plate-header .figure-caption li {
   display: inline-block;
   margin-left: 19px;
 }
@@ -673,7 +669,7 @@ h4:hover {
   margin-right: 13px;
 }
 
-.plate-header .image-caption .image-name {
+.plate-header .figure-caption .image-name {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-size: 11px;
