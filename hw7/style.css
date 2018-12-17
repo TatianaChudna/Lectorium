@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:400,500,600,700');
 
 body {
-  background-color: #343435;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
@@ -97,7 +96,6 @@ a {
   background-color: #e7434e;
   color: #fff;
   font-size: 14px;
-  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.56px;
   position: absolute;
@@ -110,6 +108,60 @@ a {
   padding-left: 41px;
   padding-right: 11px;
 }
+
+/* Header And */
+/* Main Start */
+
+.statistic-list {
+  background-color: #fff;
+}
+
+.statistic-list .block {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  transform: translateY(-50%);
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(52, 52, 52, 0.15);
+  border-radius: 5px;
+
+}
+
+.statistic-list .block li {
+  border-right: 1px solid #d5d5d5;
+  margin-top: 40px;
+  margin-bottom: 27px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.statistic-list .block li:last-of-type {
+  border-right: none;
+}
+
+.statistic-list .block h3 {
+  color: #262626;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  margin-bottom: 17px;
+}
+
+.statistic-list .block p {
+  color: #717171;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.36px;
+}
+
+
+
+
+
+
 
 .container {
   width: 100%;
