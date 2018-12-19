@@ -166,7 +166,7 @@ a {
   /*text-align: center;*/
 }
 
-.first-section h4 {
+.container h4 {
   color: #343435;
   font-size: 30px;
   text-transform: uppercase;
@@ -176,7 +176,7 @@ a {
   margin-bottom: 23px;
 }
 
-.first-section p {
+.container p {
   color: #717171;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -185,23 +185,23 @@ a {
   margin-bottom: 85px;
 }
 
-.first-section ul {
+.container ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 117px;
 }
 
-.first-section li {
+.container li {
   position: relative;
   margin-bottom: 27px;
 }
 
-.first-section li:nth-child(n+3) {
+.container li:nth-child(n+3) {
   margin-bottom: 0;
 }
 
-.first-section span {
+.container span {
   position: absolute;
   top: 30px;
   left: 28px;
@@ -214,11 +214,11 @@ a {
   letter-spacing: 0.64px;
 }
 
-.first-section span i {
+.container span i {
   margin-right: 4px;
 }
 
-.first-section .cities-name {
+.container .cities-name {
   position: absolute;
   bottom: 32px;
   left: 28px;
@@ -226,7 +226,7 @@ a {
   text-transform: none;
 }
 
-.first-section .cities-name h5 {
+.container .cities-name h5 {
   font-size: 30px;
   letter-spacing: 1.2px;
   margin-bottom: 8px;
@@ -261,6 +261,7 @@ a {
   height: 600px;
   width: 100%;
   background: url("img/main-img.jpg") no-repeat;
+  margin-bottom: 96px;
 }
 
 .second-section .link {
@@ -282,4 +283,7 @@ a {
   margin: 0 auto;
 }
 
+.third-section .margin-bottom {
+  margin-bottom: 96px;
+}
 
