@@ -29,7 +29,12 @@ a {
 .main-menu {
   display: flex;
   justify-content: space-between;
-  padding-top: 38px;
+  padding-top: 36px;
+}
+
+.main-menu h1 {
+  font-size: 0;
+  margin-top: 2px;
 }
 
 .navigation-menu li {
@@ -41,7 +46,7 @@ a {
   margin-right: 0;
   border: 1px solid #f9fafe;
   border-radius: 5px;
-  padding: 15px 39px;
+  padding: 12px 39px;
 }
 
 .navigation-menu li a {
@@ -51,8 +56,8 @@ a {
 }
 
 .main-buner {
-  max-width: 897px;
-  margin: 230px auto 0;
+  max-width: 900px;
+  margin: 210px auto 0;
   text-align: center;
   color: #f9fafe;
   text-transform: uppercase;
@@ -60,21 +65,20 @@ a {
 
 .main-buner h2 {
   font-size: 71px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 4.54px;
-  margin-bottom: 29px;
+  margin-bottom: 16px;
 }
 
 .main-buner p {
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
   letter-spacing: 1.2px;
-  margin-bottom: 90px;
+  margin-bottom: 84px;
 }
 
 .search-form {
   position: relative;
-
 }
 
 .search-form input {
@@ -86,11 +90,10 @@ a {
   color: #717171;
   font-size: 14px;
   letter-spacing: 0.56px;
-  padding: 25px 0 23px 30px;
+  padding: 23px 0 22px 30px;
 }
 
 .search-form button {
-  display: inline-block;
   border: none;
   border-radius: 0 5px 5px 0;
   background-color: #e7434e;
@@ -101,12 +104,13 @@ a {
   position: absolute;
   top: 0;
   right: 64px;
-  padding: 24px 41px 23px 0;
+  padding: 22px 41px 23px 0;
 }
 
-.search-form button img {
-  padding-left: 41px;
+.search-form button .fa-ship {
+  padding-left: 37px;
   padding-right: 11px;
+  color: #fff;
 }
 
 /* Header And */
@@ -157,14 +161,100 @@ a {
   letter-spacing: 0.36px;
 }
 
-
-
-
-
-
-
 .container {
   width: 100%;
   margin: 0 auto;
-  max-width: 1170px;
+  max-width: 1173px;
+  /*text-align: center;*/
+}
+
+.first-section h4 {
+  color: #343435;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  text-align: center;
+  margin-top: 41px;
+  margin-bottom: 23px;
+}
+
+.first-section p {
+  color: #717171;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.first-section ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 117px;
+}
+
+.first-section li {
+  position: relative;
+  margin-bottom: 27px;
+}
+
+.first-section li:nth-child(n+3) {
+  margin-bottom: 0;
+}
+
+.first-section span {
+  position: absolute;
+  top: 30px;
+  left: 28px;
+  background-color: #e7434e;
+  padding: 13px 12px 13px 17px;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.64px;
+}
+
+.first-section span i {
+  margin-right: 4px;
+}
+
+.first-section .cities-name {
+  position: absolute;
+  bottom: 32px;
+  left: 28px;
+  color: #fff;
+  text-transform: none;
+}
+
+.first-section .cities-name h5 {
+  font-size: 30px;
+  letter-spacing: 1.2px;
+  margin-bottom: 8px;
+}
+/**/
+.cities-name p {
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  margin-bottom: 0;
+  color: #fff;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+
+.first-section .link {
+  color: #343434;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+  padding: 21px 38px 21px 44px;
+  border-radius: 5px;
+  border: 1px solid rgba(38, 38, 38, 0.3);
+  background-color: #fff;
+}
+
+.link-button {
+  margin: 0 auto;
+  text-align: center;
 }
