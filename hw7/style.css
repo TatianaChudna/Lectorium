@@ -6,7 +6,6 @@ body {
 }
 
 header {
-  /*position: absolute;*/
   margin-left: 30px;
   margin-right: 30px;
 }
@@ -20,7 +19,6 @@ a {
 /* Header Start */
 
 .header-wrapper {
-  /*position: relative;*/
   height: 850px;
   width: 100%;
   background: url("img/header-bg.jpg");
@@ -55,22 +53,22 @@ a {
   letter-spacing: 0.64px;
 }
 
-.main-buner {
-  max-width: 900px;
+.buner {
+  max-width: 945px;
   margin: 210px auto 0;
   text-align: center;
   color: #f9fafe;
   text-transform: uppercase;
 }
 
-.main-buner h2 {
-  font-size: 71px;
-  font-weight: 600;
+.buner h2 {
+  font-size: 72px;
+  font-weight: 700;
   letter-spacing: 4.54px;
   margin-bottom: 16px;
 }
 
-.main-buner p {
+.buner p {
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
   letter-spacing: 1.2px;
@@ -243,7 +241,7 @@ a {
   font-family: 'Raleway', sans-serif;
 }
 
-.first-section .link {
+.link {
   color: #343434;
   font-size: 14px;
   font-weight: 700;
@@ -255,6 +253,33 @@ a {
 }
 
 .link-button {
-  margin: 0 auto;
+  margin: 0 auto 103px auto;
   text-align: center;
 }
+
+.second-section {
+  height: 600px;
+  width: 100%;
+  background: url("img/main-img.jpg") no-repeat;
+}
+
+.second-section .link {
+  color: #fff;
+  background-color: #e7434e;
+  font-weight: 400;
+}
+
+.second-section .buner {
+  margin: 0 auto;
+  padding-top: 178px;
+}
+
+.second-section p {
+  margin-bottom: 107px;
+}
+
+.second-section .link-button {
+  margin: 0 auto;
+}
+
+
