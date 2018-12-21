@@ -287,3 +287,111 @@ a {
   margin-bottom: 96px;
 }
 
+/* Main End */
+/* Footer Start */
+
+.footer-container {
+  position: relative;
+  width: 100%;
+  background-color: #404040;
+}
+
+.footer-container:before {
+  background: url("img/fbg.png") no-repeat;
+  height: 100%;
+  width: 100%;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.footer-container .footer-content {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1173px;
+}
+
+.footer-container .footer-content {
+  padding-bottom: 73px;
+  padding-top: 62px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container .footer-content li {
+ width: 145px;
+}
+
+.footer-container .footer-content li:nth-child(3) {
+  width: 417px;
+}
+
+.footer-container .footer-content h5 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+  margin-bottom: 14px;
+}
+
+.footer-container .footer-content p {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.46px;
+  line-height: 37px;
+}
+
+.footer-container .footer-content form {
+  position: relative;
+}
+
+.footer-container .footer-content form input {
+  border-radius: 5px;
+  background-color: #fff;
+  border: none;
+  color: #717171;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.28px;
+  padding: 14px 155px 12px 22px;
+}
+
+
+.footer-container .footer-content form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #e7434e;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.28px;
+  padding: 15px 35px 11px 38px;
+}
+
+.footer-content .social-network {
+  padding-bottom: 0;
+  padding-top: 48px;
+}
+
+.social-network .facebook a,
+.social-network .twitter a,
+.social-network .google a {
+  display: inline-block;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background-color: #717171;
+  text-align: center;
+  line-height: 42px;
+  font-size: 20px;
+}
+
+.social-network li {
+  display: inline;
+  margin-right: 16px;
+}
