@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:300,400,500,600,700');
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -176,7 +176,7 @@ a {
   margin-bottom: 23px;
 }
 
-.container p {
+.container .some-text {
   color: #717171;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -211,10 +211,11 @@ a {
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  text-transform: lowercase;
   letter-spacing: 0.64px;
 }
 
-.container span i {
+.container span .fa-ship {
   margin-right: 4px;
 }
 
@@ -232,10 +233,9 @@ a {
   margin-bottom: 8px;
 }
 /**/
-.cities-name p {
+.cities-name .country {
   font-size: 20px;
   letter-spacing: 0.8px;
-  margin-bottom: 0;
   color: #fff;
   text-align: left;
   font-family: 'Raleway', sans-serif;
@@ -287,6 +287,42 @@ a {
   margin-bottom: 96px;
 }
 
+.third-section .info {
+  position: absolute;
+  bottom: 29px;
+  left: 31px;
+  color: #fff;
+  text-transform: none;
+}
+
+.third-section .info h5 {
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 1.2px;
+  margin-bottom: 16px;
+}
+
+.third-section .info p {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 0.82px;
+  margin-right: 24px;
+}
+
+.third-section .info p:last-child {
+  margin-right: 0;
+}
+
+.third-section .info .fa-map-marker-alt {
+  margin-right: 8px;
+}
+
+.third-section .info .fa-user-friends {
+  margin-right: 10px;
+}
+
 /* Main End */
 /* Footer Start */
 
@@ -327,7 +363,7 @@ a {
   width: 417px;
 }
 
-.footer-container .footer-content h5 {
+.footer-container .footer-content h6 {
   color: #fff;
   font-size: 14px;
   font-weight: 700;
