@@ -16,6 +16,10 @@ a {
   color: #fff;
 }
 
+img:hover {
+  opacity: 0.5;
+}
+
 /* Header Start */
 
 .header-wrapper {
@@ -41,19 +45,29 @@ a {
 .navigation-menu li {
   display: inline-block;
   margin-right: 32px;
+  border: 1px solid rgba(255, 255, 255, 0);
 }
 
 .navigation-menu li:last-of-type {
   margin-right: 0;
   border: 1px solid #f9fafe;
   border-radius: 5px;
-  padding: 12px 35px;
 }
 
 .navigation-menu li a {
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.94px;
+  padding: 12px 35px;
+  display: block;
+}
+
+.navigation-menu li:hover {
+  border-color: #e7434e;
+}
+
+.navigation-menu a:hover {
+  color: #e7434e;
 }
 
 .buner {
@@ -106,6 +120,10 @@ a {
   top: 0;
   right: 85px;
   padding: 22px 41px 22px 0;
+}
+
+.search-form button:hover {
+  background-color: #005253;
 }
 
 .search-form button .fa-ship {
@@ -252,6 +270,11 @@ a {
   background-color: #fff;
 }
 
+.link:hover {
+  background-color: #15255e;
+  color: #fff;
+}
+
 .link-button {
   margin: 0 auto 81px auto;
   text-align: center;
@@ -268,6 +291,11 @@ a {
   color: #fff;
   background-color: #e7434e;
   font-weight: 400;
+}
+
+.second-section .link:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .second-section .buner {
@@ -421,6 +449,10 @@ overflow: hidden;
   font-size: 14px;
   letter-spacing: 0.28px;
   padding: 15px 35px 11px 38px;
+}
+
+.footer-container .footer-content form button:hover {
+  background-color: #005253;
 }
 
 .footer-content .social-network {
