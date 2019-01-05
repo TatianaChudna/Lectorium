@@ -22,3 +22,20 @@
     padding: 3em !important;;
   }
 }
+
+.html-5,
+.css-3 {
+  width: 100%;
+}
+
+.java-script {
+  width: 90%;
+}
+
+.php {
+  width: 80%;
+}
+
+.python {
+  width: 70%;
+}
