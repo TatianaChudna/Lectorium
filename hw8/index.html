@@ -3,14 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hw8</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"/>
   <link rel="stylesheet" href="style.css">
-  <title>Hw8</title>
 </head>
 <body>
+<!-- Header Start -->
+
 <div class="container">
   <header id="main-header">
     <div class="row no-gutters">
@@ -23,22 +26,22 @@
             <div class="d-flex flex-row justify-content-between align-items-center">
               <h1 class="display-4">John Doe</h1>
               <div class="d-none d-md-block">
-                <a href="http://twitter.com" class="text-white">
+                <a href="http://twitter.com" class="text-white" title="twitter">
                   <i class="fab fa-twitter"></i>
                 </a>
               </div>
               <div>
-                <a href="http://facebook.com" class="text-white">
+                <a href="http://facebook.com" class="text-white" title="facebook">
                   <i class="fab fa-facebook"></i>
                 </a>
               </div>
               <div>
-                <a href="http://instagram.com" class="text-white">
+                <a href="http://instagram.com" class="text-white" title="instagram">
                   <i class="fab fa-instagram"></i>
                 </a>
               </div>
               <div>
-                <a href="http://github.com" class="text-white">
+                <a href="http://github.com" class="text-white" title="github">
                   <i class="fab fa-github"></i>
                 </a>
               </div>
@@ -74,7 +77,9 @@
     </div>
   </header>
 
-  <!-- Home -->
+  <!-- Header End -->
+  <!-- Home Section Start -->
+
   <div id="home" class="collapse show">
     <div class="card card-body bg-primary text-white py-5">
       <h2>Welcome To My Page</h2>
@@ -108,7 +113,9 @@
     </div>
   </div>
 
-  <!-- Resume -->
+  <!-- Home Section End -->
+  <!-- Resume Section Start-->
+
   <div id="resume" class="collapse">
     <div class="card card-body bg-success text-white py-5">
       <h2>My Resume</h2>
@@ -156,7 +163,8 @@
     </div>
   </div>
 
-  <!-- Work -->
+  <!-- Resume Section End-->
+  <!-- Work Section Start -->
 
   <div id="work" class="collapse">
     <div class="card card-body bg-warning text-white py-5">
@@ -169,52 +177,53 @@
         amet.</p>
       <div class="row no-gutters">
         <div class="col-md-3">
-          <a href="https://unsplash.it/1200/768.jpg?image=252" title="Some details">
-            <img src="img/img1.jpg" alt="Some details" class="img img-fluid">
+          <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" title="metalic details">
+            <img src="https://unsplash.it/600.jpg?image=252" alt="metalic details" class="img-fluid">
           </a>
         </div>
         <div class="col-md-3">
-          <a href="https://unsplash.it/1200/768.jpg?image=253" title="Rock on the earth">
-            <img src="img/img2.jpg" alt="Rock on the earth" class="img img-fluid">
+          <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" title="rock on the earth">
+            <img src="https://unsplash.it/600.jpg?image=253" alt="rock on the earth" class="img-fluid">
           </a>
         </div>
         <div class="col-md-3">
-          <a href="https://unsplash.it/1200/768.jpg?image=254" title="Trees">
-            <img src="img/img3.jpg" alt="Trees" class="img img-fluid">
+          <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" title="trees">
+            <img src="https://unsplash.it/600.jpg?image=254" alt="trees" class="img-fluid">
           </a>
         </div>
         <div class="col-md-3">
-          <a href="https://unsplash.it/1200/768.jpg?image=255" title="Nature foto">
-            <img src="img/img4.jpg" alt="Nature foto" class="img img-fluid">
+          <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" title="nature">
+            <img src="https://unsplash.it/600.jpg?image=255" alt="nature" class="img-fluid">
           </a>
         </div>
       </div>
       <div class="row no-gutters">
         <div class="col-md-3">
-          <a href="https://unsplash.it/1200/768.jpg?image=256" title="Mountains">
-            <img src="img/img5.jpg" alt="Mountains" class="img img-fluid">
+          <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" title="mountains">
+            <img src="https://unsplash.it/600.jpg?image=256" alt="mountains" class="img-fluid">
           </a>
         </div>
         <div class="col-md-3">
-          <a href="https://unsplash.it/1200/768.jpg?image=257" title="City">
-            <img src="img/img6.jpg" alt="City" class="img img-fluid">
+          <a href="https://unsplash.it/1200/768.jpg?image=257" data-toggle="lightbox" title="city">
+            <img src="https://unsplash.it/600.jpg?image=257" alt="city" class="img-fluid">
           </a>
         </div>
         <div class="col-md-3">
-          <a href="https://unsplash.it/1200/768.jpg?image=258" title="Birds">
-            <img src="img/img7.jpg" alt="Birds" class="img img-fluid">
+          <a href="https://unsplash.it/1200/768.jpg?image=258" data-toggle="lightbox" title="birds">
+            <img src="https://unsplash.it/600.jpg?image=258" alt="birds" class="img-fluid">
           </a>
         </div>
         <div class="col-md-3">
-          <a href="https://unsplash.it/1200/768.jpg?image=259" title="City on the water">
-            <img src="img/img8.jpg" alt="City on the water" class="img img-fluid">
+          <a href="https://unsplash.it/1200/768.jpg?image=259" data-toggle="lightbox" title="city on the water">
+            <img src="https://unsplash.it/600.jpg?image=259" alt="city on the water" class="img-fluid">
           </a>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Contact -->
+  <!-- Work Section End -->
+  <!-- Contact Section Start -->
   <div id="contact" class="collapse">
     <div class="card card-body bg-danger text-white py-5">
       <h2>Contact</h2>
@@ -259,22 +268,25 @@
     </div>
   </div>
 
-  <!-- Footer -->
-<footer id="main-footer" class="p-5 bg-dark text-white">
-  <div class="row">
-    <div class="col-md-6">
-      <a href="#" class="btn btn-outline-light">
-        <i class="fas fa-cloud"></i>Download Resume
-      </a>
+  <!-- Contact Section End -->
+  <!-- Footer Start -->
+
+  <footer id="main-footer" class="p-5 bg-dark text-white">
+    <div class="row">
+      <div class="col-md-6">
+        <a href="#" class="btn btn-outline-light">
+          <i class="fas fa-cloud"></i>Download Resume
+        </a>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
 </div>
 
-<script
-    src="http://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
+<!-- Footer End -->
+
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -284,13 +296,16 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 <script>
-    &
-    ('port-item').click(function () {
-    &
-        ('collapse').collapse('hide');
-    })
+    $('.port-item').click(function () {
+        $('.collapse').collapse('hide');
+    });
+
+    $(document).on('click', '[data-toggle="lightbox"]', function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+    });
 </script>
 </body>
 </html>
