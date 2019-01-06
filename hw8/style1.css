@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-  border-bottom: #008ed5 3px solid;
+  border-bottom: #008ed6 3px solid;
   opacity: 0.8;
 }
 
@@ -44,6 +44,13 @@ body {
 #share-section .fas {
   background: #333;
   color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#create-section .fas {
+  background: #fff;
+  color: #008ed6;
   padding: 5px;
   border-radius: 5px;
 }
