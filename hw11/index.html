@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="form.css">
+  <meta charset="UTF-8">
+  <title>Form</title>
+</head>
+<body>
+<form action="script.php" method="post">
+  <fieldset>
+    <legend>Про себе</legend>
+    <p>
+      <label for="first_name">Ім'я<span>*</span> (Обов'язкове поле):</label>
+      <input id="first_name" type="text" name="first name" required placeholder="Введіть своє ім'я">
+    </p>
+    <p>
+      <label for="second_name">Прізвище<span>*</span> (Обов'язкове поле):</label>
+      <input id="second_name" type="text" name="second name" required placeholder=" Введіть своє прізвище">
+    </p>
+    <p>
+      <label>Стать<span>*</span> (Обов'язкове поле):</label>
+      <select name="sex" required>
+        <option value="">-Виберіть стать-</option>
+        <option value="man">Чоловік</option>
+        <option value="woman">Жінка</option>
+      </select>
+    </p>
+    <p>
+      <label for="age">Вік (Лише цифри від 18 до 48)<span>*</span> (Обов'язкове поле):</label>
+      <input id="age" type="number" name="age" required min="18" max="48">
+    </p>
+  </fieldset>
+  <fieldset>
+    <legend>Фото</legend>
+    <label for="image">Загрузіть фотографію:</label><br>
+    <input id="image" type="file" name="image">
+  </fieldset>
+  <fieldset>
+    <legend>День народження</legend>
+    <label for="birthday">День народження:</label>
+    <input id="birthday" type="date" name="birthday">
+  </fieldset>
+  <fieldset class="label-block">
+    <legend>Інша інформація</legend>
+    <p>
+      <label for="email">Ваш email (Лише email адреса):</label>
+      <input id="email" type="email" name="email" placeholder="Email">
+    </p>
+    <p>
+      <label for="tel">Ваш телефон (Має складатись від 6-ти до 9-ти символів і має містити лише
+        цифри):</label>
+      <input id="tel" type="tel" name="telefone" placeholder="Телефон" pattern="[0-9]{6-9}">
+    </p>
+    <p>
+      <label for="password">Пароль (Пароль прихований):</label>
+      <input id="password" type="password" name="password" placeholder="Пароль">
+    </p>
+    <p>
+      <label for="url">Ваш веб-сайт (Лише URL-адреса):</label>
+      <input id="url" type="url" name="site" placeholder="URL">
+    </p>
+  </fieldset>
+  <fieldset class="label-block">
+    <legend>Ваші улюблені заняття</legend>
+    <label>
+      <input type="radio" name="occupation">Вьорстка форм
+    </label>
+    <label>
+      <input type="radio" name="occupation">Комп'ютерні ігри
+    </label>
+    <label>
+      <input type="radio" name="occupation">Вьорстка емейлів
+    </label>
+    <label>
+      <input type="radio" name="occupation">Фіксить баги на сайті під iOS
+    </label>
+    <label>
+      <input type="radio" name="occupation">Фіксить флєкса під IE
+    </label>
+  </fieldset>
+  <fieldset class="label-block">
+    <legend>Що вам не подобається в вьорсткі форм?</legend>
+    <label>
+      <input type="checkbox" name="f">Вьорстка форм
+    </label>
+    <label>
+      <input type="checkbox" name="f">Як зверстать Drag & Drop?
+    </label>
+    <label>
+      <input type="checkbox" name="f">Імейли верстать круче
+    </label>
+    <label>
+      <input type="checkbox" name="f">Як застілить випадаючий список?
+    </label>
+    <label>
+      <input type="checkbox" name="f">Що таке форма?
+    </label>
+  </fieldset>
+  <fieldset class="label-block">
+    <legend>Інше</legend>
+    <p>
+      <label for="comment">Ваш коментар:</label>
+      <textarea id="comment" name="comment" cols="50" rows="10"></textarea>
+    </p>
+    <p>
+      <label for="select-variant">Виберіть декілька варіантів</label>
+      <select id="select-variant" name="variant" multiple>
+        <option value="1">Варіант - 1</option>
+        <option value="2">Варіант - 2</option>
+        <option value="3">Варіант - 3</option>
+        <option value="4">Варіант - 4</option>
+        <option value="5">Варіант - 5</option>
+      </select>
+    </p>
+  </fieldset>
+  <div class="button-container">
+    <input type="reset" name="reset" value="Стерти дані">
+    <input type="submit" name="submit" value="Відправити форму">
+  </div>
+</form>
+</body>
+</html>
