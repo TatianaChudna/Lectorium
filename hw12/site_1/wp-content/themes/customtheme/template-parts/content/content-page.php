@@ -14,7 +14,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php if ( ! twentynineteen_can_show_post_thumbnail() ) : ?>
 	<header class="entry-header">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logopost.jpg" alt="" />
+    <img class="logopost" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logopost.jpg" alt="logo" />
 		<?php get_template_part( 'template-parts/header/entry', 'header' ); ?>
 	</header>
 	<?php endif; ?>
