@@ -2,8 +2,8 @@
 
 Contributors: awordpresslife
 Requires at least: 4.0
-Tested up to: 5.0.3
-Stable tag: 0.0.6
+Tested up to: 5.1.1
+Stable tag: 0.0.7
 
 Multi-purpose WordPress theme
 
@@ -39,6 +39,10 @@ Soucre : https://pixabay.com/
 License: CC0 Public Domain
 
 == Changelog ==
+
+version : 0.0.7
+Features : compitable with WordPress latest version
+Bug fix: None
 
 version : 0.0.5
 Features : none
